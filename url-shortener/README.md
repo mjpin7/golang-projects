@@ -27,3 +27,7 @@ and create a http.HandlerFunc "yamlHandler" to try and do the same thing but wit
 
 If it could not find any matches in the yaml text, it will fallback to the mapHandler originally created that corresponds to the created map called `pathsToUrls` in main.go. If all else fails, it will fallback on the default mux and show the main page.
 
+## Future Enhancements
+* Allow for addition of new url redirects
+* Read from yaml file instead of variable (from flag)
+
